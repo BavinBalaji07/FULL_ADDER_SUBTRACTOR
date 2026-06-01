@@ -50,7 +50,7 @@ Write the detailed procedure here
 
 **Program:**
 
-/*
+
 
 Developed by: Bavin Balaji R
 Register Number:212225040045
@@ -75,7 +75,7 @@ assign borrow = (adash&b)|(b&cin)|(adash&cin);
 
 endmodule
 
-*/
+
 
 **RTL Schematic**
 *Full Adder*
