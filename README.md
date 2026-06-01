@@ -49,6 +49,10 @@ Full Subtractor
 Write the detailed procedure here
 
 **Program:**
+/*
+
+Developed by: Bavin Balaji R
+Register Number:212225040045
 
 module pro4(a,b,cin,sum,carry,diff,borrow);
 
@@ -68,15 +72,6 @@ assign diff = a^b^cin;
 
 assign borrow = (adash&b)|(b&cin)|(adash&cin);
 
-endmodule
-
-/*
-Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-module pro4(a,b,cin,sum,carry);
-input a,b,cin;
-output sum,carry;
-assign sum=( (a ^ b)^cin);
-assign carry= ( (a & b)| ( cin &(a ^ b )));
 endmodule
 
 */
